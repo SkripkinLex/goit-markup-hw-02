@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
-    background-color: #434455;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 li {
@@ -14,38 +14,49 @@ header a {
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    color: #4d5ae5;
+    
     font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .nav_list {
     font-weight: 500;
-    line-height: 24№;
+    line-height: 1.5;
     font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.nav_list a {
-    color: #2E2F42;
+.nav_list:hover {
+    color: #404bbf;
 }
 
-address a {
-    color: #434455;
-    font-weight: 400;
-    line-height: 24%;
-    font-size: 16px;
+.nav_list:focus {
+    color: #404bbf;
+}
+
+.addres {
+    
     font-style: normal;
 }
 
-address a:hover {
-    color: #d34343;
+.addres_link {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
+.addres_link:hover {
+    color: #404bbf;
 } 
 
-address a:focus {
-    color: #b33a3a;
+.addres_link:focus {
+    color: #404bbf;
 }
 
 
@@ -86,14 +97,16 @@ address a:focus {
 .cart_item {
     color: #2E2F42;
     font-weight: 500;
-    line-height: 24№;
     font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em
 }
 
 .cart_text {
-    color: #2E2F42;
-    line-height: 24№;
+    color: #434455;
+    line-height: 1.5;
     font-size: 16px;
+    letter-spacing: 0.02em
 }
 
 .team_section {
@@ -110,21 +123,23 @@ address a:focus {
     text-transform: capitalize;
 }
 
-.team_mark {
+.team_cart {
     background-color: #FFFFFF;
 }
 
 .team_item {
     color: #2E2F42;
     font-weight: 500;
-    line-height: 24№;
+    line-height: 1.2;
     font-size: 20px;
+    letter-spacing: 0.02em
 }
 
 .team_text {
     color: #434455;
-    line-height: 24№;
+    line-height: 1.5;
     font-size: 16px;
+    letter-spacing: 0.02em
 }
 
 .portfolio_item {
@@ -134,14 +149,15 @@ address a:focus {
     line-height: 1.11;
     letter-spacing: 0.02em;
     font-size: 36px;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .portfolio_item_foto {
     color: #2E2F42;
     font-weight: 500;
-    line-height: 24№;
+    line-height: 1.2;
     font-size: 20px;
+    letter-spacing: 0.02em;
 }
 
 .portfolio_text {
@@ -151,7 +167,7 @@ address a:focus {
     letter-spacing: 0.02em;
 }
 
-footer {
+.footer {
     background-color: #2E2F42;
 }
 
@@ -162,7 +178,7 @@ footer {
     font-weight: 700;
     line-height: 1.17;
     font-size: 18px;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -174,6 +190,6 @@ footer {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
     color: #F4F4FD;
 }
